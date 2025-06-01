@@ -1,5 +1,5 @@
 ## Purpose
-This newsletter is personally curated for my customers to provide updates on **new launches, features, metrics, learning resources, and upcoming events**. 
+As the Account Executive responsible for all State and Local government across the Eastern US, I am rolling out a new monthly newsletter to help me scale my business. This newsletter is personally curated for my customers to provide updates on **new launches, features, metrics, learning resources, and upcoming events**. 
 
 It helps scale engagement by keeping customers informed on key developments, even when I can’t meet with them individually. The primary goals are:
 
