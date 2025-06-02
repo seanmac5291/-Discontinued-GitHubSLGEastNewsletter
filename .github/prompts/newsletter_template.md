@@ -1,4 +1,4 @@
-This is a personally curated newsletter for my customers, focused on the most relevant updates and resources from GitHub this month. Highlights for this month include [Placeholder for 2-3 key highlights]. If you have any feedback or want to dive deeper into any topic, please let me know. Feel free to share this newsletter with others on your team as well. You can find an archive of past newsletters here.
+This is a personally curated newsletter for my customers, focused on the most relevant updates and resources from GitHub this month. Highlights for this month include [Placeholder for 2-3 key highlights]. If you have any feedback or want to dive deeper into any topic, please let me know. Feel free to share this newsletter with others on your team as well. 
 
 Monthly Announcement
 [Feature/Announcement Headline] (GA) – {{Concise description of the feature/announcement and its benefit/relevance to the audience. Use nested bullets if detailing multiple sub-features.}} - [Descriptive Link Text 1] [Descriptive Link Text 2]
@@ -33,7 +33,7 @@ Visual Studio Copilot Changelog
 JetBrains Copilot Changelog
 XCode Copilot Changelog
 Eclipse Copilot Changelog
-Dylan's Corner
+Nicole's Notes
 Did You Know?
 {{A paragraph or two about a specialized Copilot feature, legal/compliance aspect, or unique use case that customers may not be aware of.}}
 
@@ -42,7 +42,6 @@ Did You Know?
 📚 Learn more: Primary Resource | Secondary Resource
 
 Webinars, Events, and Recordings
-Brian's personally curated YouTube playlists, updated monthly: Copilot Tips & Training Video, GitHub Enterprise, Actions, and GHAS videos, How GitHub GitHubs videos
 
 Conference Sessions Guide - Template
 Keynotes
