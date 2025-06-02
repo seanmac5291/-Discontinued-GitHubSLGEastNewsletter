@@ -1,5 +1,5 @@
 ## Purpose
-As the Account Executive responsible for all State and Local government across the Eastern US, I am rolling out a new monthly newsletter to help me scale my business. This newsletter is personally curated for my customers to provide updates on **new launches, features, metrics, learning resources, and upcoming events**. 
+This newsletter is personally curated for my customers to provide updates on **new launches, features, metrics, learning resources, and upcoming events**. 
 
 It helps scale engagement by keeping customers informed on key developments, even when I can’t meet with them individually. The primary goals are:
 
@@ -20,7 +20,7 @@ It helps scale engagement by keeping customers informed on key developments, eve
 ## Standard Introduction & Closing
 
 **Introduction Template:**
-"This is a personally curated newsletter for my customers, focused on the most relevant updates and resources from GitHub this month. Highlights for this month include [Placeholder for 2-3 key highlights]. If you have any feedback or want to dive deeper into any topic, please let me know. Feel free to share this newsletter with others on your team as well. You can find an archive of past newsletters [here](https://github.com/briancl2/CustomerNewsletter)."
+"This is a personally curated newsletter for my customers, focused on the most relevant updates and resources from GitHub this month. Highlights for this month include [Placeholder for 2-3 key highlights]. If you have any feedback or want to dive deeper into any topic, please let me know. Feel free to share this newsletter with others on your team as well. 
 
 **Closing Template:**
 "If you have any questions or want to discuss these updates in detail, feel free to reach out. As always, I’m here to help you and your team stay informed and get the most value from GitHub."
@@ -89,19 +89,21 @@ This section is critical and should almost always be present.
     ```
 
 ### 2. Webinars, Events, and Recordings
-A curated list of relevant upcoming engagements and links to recordings of past events if available.
+A curated list of relevant upcoming engagements and links to recordings of past events if available. Ensure ALL times are in Eastern Time. Pull updated data from the below links:
+- https://resources.github.com/events/
+- https://developer.microsoft.com/en-us/reactor/?search=github&regions=North+America&page=1
 - **Standard Content (include if relevant for the month):**
     `Also, watch the [Copilot Fridays back catalog](https://resources.github.com/copilot-fridays-english-on-demand/): Prompt Fundamentals, Copilot for MLOps/Data Science, Copilot for Infrastructure Engineers, GitHub Enterprise Managed Users for Copilot Users`
 - **Format for Conference Events**:
   For major conferences like Microsoft Build or GitHub Galaxy, use tables with columns for Date, Time, Session, Description, and optionally Speakers:
   ```markdown
   #### Keynotes
-  | Date | Time (PDT) | Session | Speakers | Description |
+  | Date | Time (ET) | Session | Speakers | Description |
   |------|------------|---------|----------|-------------|
   | May 19 | 9:05 AM - 10:30 AM | [**Session Title**](URL) | Speaker Names | Brief description |
 
   #### Topic Sessions
-  | Date | Time (PDT) | Session | Description |
+  | Date | Time (ET) | Session | Description |
   |------|------------|---------|----------|
   | May 19 | 11:45 AM - 12:45 PM | [**Session Title**](URL) | Brief description |
   ```
@@ -153,14 +155,14 @@ A curated list of relevant upcoming engagements and links to recordings of past 
     Brief description (1 sentence, optional)
   ```
 
-### 3. Dylan's Corner (Mandatory)
-A specialized section written from Dylan's perspective with a "Did You Know?" format that focuses on specialized Copilot features, legal/compliance aspects, or unique use cases that customers may not be aware of. This section should:
+### 3. Nicole's Notes (Mandatory)
+A specialized section written from Nicoles's perspective with a "Did You Know?" format that focuses on specialized Copilot features, legal/compliance aspects, or unique use cases that customers may not be aware of. This section should:
 - Use a conversational tone that's different from the rest of the newsletter
 - Focus on one specific topic per newsletter
 - Include links to relevant documentation
 - Typically follow this format:
   ```markdown
-  # Dylan's Corner
+  # Nicole's Notes
 
   ### Did You Know?
   {{A paragraph or two about a specialized Copilot feature, legal/compliance aspect, or unique use case}}
@@ -176,7 +178,14 @@ A specialized section written from Dylan's perspective with a "Did You Know?" fo
 - GitHub Advanced Security (GHAS)
 - GitHub Actions
 - General Platform Updates
+- Relevant GovTech / AppDev / Security Updates
+- https://statescoop.com/
+- https://www.govtech.com/
 - Learning Resources (if not covered under Copilot at Scale)
+- Check for product updates at these links:
+-   https://github.blog/
+-   https://devblogs.microsoft.com/blog/category/github
+
 
 ---
 
