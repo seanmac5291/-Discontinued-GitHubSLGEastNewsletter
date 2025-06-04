@@ -11,7 +11,7 @@ The newsletter is personally curated to provide updates on:
 - Upcoming events and webinars
 - Industry news relevant to government technology (see GovTech Grapevine)
 
-It helps scale engagement by keeping customers informed on key developments, especially when direct meeting time is limited. Many customers leverage this content by sharing resources, updates, and event links in their internal developer community portals.
+It helps engagement by keeping customers informed on key developments. Many customers leverage this content by sharing resources, updates, and event links in their internal developer community portals.
 
 ## Target Audience
 
