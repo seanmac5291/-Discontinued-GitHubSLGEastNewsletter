@@ -3,7 +3,7 @@ This newsletter is personally curated for my customers to provide updates on **n
 
 It helps scale engagement by keeping customers informed on key developments, even when I can’t meet with them individually. The primary goals are:
 
-- **Awareness**: Keeping customers up to date with recent product updates and industry trends relevant to large enterprises, particularly in Healthcare and Manufacturing.
+- **Awareness**: Keeping customers up to date with recent product updates and industry trends relevant to large enterprises, particularly in Government/Public Sector.
 - **Engagement**: Encouraging interaction and discussion on relevant topics.
 - **Education**: Providing learning resources to help customers maximize value from GitHub products.
 - **Event Registration**: Promoting webinars, conferences, and training sessions.
