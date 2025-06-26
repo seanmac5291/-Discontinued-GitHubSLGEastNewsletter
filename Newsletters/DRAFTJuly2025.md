@@ -39,13 +39,11 @@ Key updates this month focus on giving you more granular control over your secur
 
 ### Nicole's Notes
 
-#### Did You Know? You Can Secure Your Supply Chain Directly in Your Pull Request.
+#### Did You Know? You Can Add Custom Instructions for GitHub Copilot
 
-A common challenge for government agencies is ensuring that every new piece of code doesn't introduce a vulnerable open source dependency. Manually checking licenses and vulnerabilities for every change is impossible at scale.
+You can guide GitHub Copilot’s behavior in Copilot Chat by adding a `.github/copilot-instructions.md` file to your repository. This allows you to tailor suggestions to your project’s conventions without manually specifying context every time. Make Copilot Instructions part of a repository template when creating new repositories so that you can share best practices across your Organization!
 
-This is where the **Dependency Review Action** comes in. You can configure this GitHub Action to run automatically on every pull request. It scans for dependencies being changed, added, or removed and checks them against your defined policies. It will flag any packages with known vulnerabilities or non-compliant licenses (like copyleft licenses) *before* they are merged into your main branch. It’s a powerful, automated control that hardens your software supply chain, a key requirement for secure development.
-
-📚 Learn more: [About the Dependency Review Action](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review) | [Configuring Dependency Review](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-dependency-review)
+📚 Learn more: [Custom Copilot Instructions in VSCode](https://code.visualstudio.com/docs/copilot/copilot-customization#_types-of-custom-instructions) | [Create a Repository Template](https://docs.github.com/en/enterprise-cloud@latest/repositories/creating-and-managing-repositories/creating-a-template-repository)
 
 ---
 
