@@ -53,8 +53,7 @@ You can guide GitHub Copilot’s behavior in Copilot Chat by adding a `.github/c
 | Date | Event | Categories |
 | :--- | :--- | :--- |
 | July 8 | [Best Practices for Mastering GitHub Copilot Chat](https://developer.microsoft.com/en-us/reactor/events/25941/) | Copilot, AI, Visual Studio Code |
-| July 30th | [Secure Your Code with GitHub: Advanced Security Activation Bootcamp for State and Local
-](https://msit.events.teams.microsoft.com/event/a0295860-16f2-4f3e-aeef-d9a567e2db84@72f988bf-86f1-41af-91ab-2d7cd011db47) |GitHub Advanced Security, Getting Started|
+| July 30 | [Secure Your Code with GitHub: Advanced Security Activation Bootcamp for State and Local](https://msit.events.teams.microsoft.com/event/a0295860-16f2-4f3e-aeef-d9a567e2db84@72f988bf-86f1-41af-91ab-2d7cd011db47) | GitHub Advanced Security, Getting Started |
 
 *Also, watch the [Copilot Fridays back catalog](https://resources.github.com/copilot-fridays-english-on-demand/): Prompt Fundamentals, Copilot for MLOps/Data Science, and more.*
 
