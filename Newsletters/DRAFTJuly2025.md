@@ -57,8 +57,9 @@ You can guide GitHub Copilot’s behavior in Copilot Chat by adding a `.github/c
 
 *Also, watch the [Copilot Fridays back catalog](https://resources.github.com/copilot-fridays-english-on-demand/): Prompt Fundamentals, Copilot for MLOps/Data Science, and more.*
 
-#### Where is my GitHub team this month?
-* **Denver, CO – Oct 12-15** – [NASCIO Annual Conference](https://www.nascio.org/events/annual-conference/) - *Note: The NASCIO Annual Conference, a key event for State CIOs, is in October, not July. It's a great event to plan for!*
+#### On-Demand Events
+* **[Scale GitHub Copilot: Governance, Enablement, and Reporting – On-Demand](https://github.ondemand.goldcast.io/on-demand/014b7829-28a2-4c62-bf18-ccd2a16c440e)**
+* **[MCP with GitHub Copilot – On-Demand](https://github.ondemand.goldcast.io/on-demand/bb52e8a7-4c49-4417-aa99-ac958098dd65)**
 
 ---
 
