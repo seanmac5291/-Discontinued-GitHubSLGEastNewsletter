@@ -2,11 +2,11 @@
 
 This is a personally curated newsletter for my customers, focused on the most relevant updates and resources from GitHub this month. As your partner, my goal is to keep you informed on how our platform is evolving to meet the specific needs of state and local government.
 
-Highlights for this month include the last chance for **GitHub Universe Super Early Bird pricing**, the general availability of **GitHub Enterprise Server 3.17**, and new **customizable push protection rules** to enhance your security posture. If you have any feedback or want to dive deeper into any topic, please let me know. Feel free to share this newsletter with others on your team as well.
+Highlights for this month include **enhanced supply chain security** with new Dependabot capabilities, **customizable push protection rules**, and the general availability of **GitHub Enterprise Server 3.17**. If you have any feedback or want to dive deeper into any topic, please let me know. Feel free to share this newsletter with others on your team as well.
 
 ### 🌟 Highlighted Update 🌟
 
-* **GitHub Universe 2025: Super Early Bird Ends July 8th!** – Our annual two-day developer event returns to San Francisco on **October 28-29**, and you can also join virtually for free. This is your best opportunity to hear the latest product announcements, attend deep-dive sessions, and connect with the global developer community. **Super Early Bird Registration ends July 8th**, offering a $700 discount on in-person passes. - [[Register and Save $700]](https://githubuniverse.com/pricing)
+* **Enhanced Supply Chain Security (`GA`)** – July brings significant improvements to dependency management and supply chain security. Dependabot now supports single pull requests for multi-ecosystem updates, reducing PR noise while improving security. New minimum package age configuration helps agencies ensure dependencies are battle-tested before adoption. Additionally, CodeQL now supports Rust in public preview, expanding security coverage for memory-safe applications. - [[Dependabot Updates]](https://github.blog/changelog/2025-07-01-dependabot-single-pull-request-for-multi-ecosystem-package-updates/) [[CodeQL for Rust]](https://github.blog/changelog/2025-07-01-codeql-for-rust-is-now-in-public-preview/)
 
 ---
 
@@ -15,23 +15,44 @@ Highlights for this month include the last chance for **GitHub Universe Super Ea
 This month's updates focus on expanding access to powerful new features and providing administrators with better control and visibility.
 
 #### Latest Releases
+* **Anthropic Claude Sonnet 4 and Claude Opus 4 (`GA`)** – The latest Claude models are now generally available in GitHub Copilot, providing enhanced reasoning capabilities and code understanding for complex development tasks. - [[Read the Announcement]](https://github.blog/changelog/2025-06-25-anthropic-claude-sonnet-4-and-claude-opus-4-are-now-generally-available-in-github-copilot/)
+* **Copilot Search on GitHub Docs (`GA`)** – GitHub documentation now includes Copilot-powered search capabilities, making it easier to find relevant information and examples when working with GitHub features and APIs. - [[Try Copilot Search]](https://github.blog/changelog/2025-06-30-copilot-search-now-on-github-docs/)
+* **Copilot in Xcode Enhancements (`GA`)** – Xcode users now have access to Copilot Vision for visual code understanding, custom instructions for project-specific guidance, and locale response support for international development teams. - [[Xcode Updates]](https://github.blog/changelog/2025-06-30-github-copilot-in-xcode-explore-with-copilot-vision-custom-instructions-and-locale-response-support/)
 * **Copilot Coding Agent for Business Users (`PREVIEW`)** – Previously limited to Enterprise plans, the powerful Copilot coding agent is now in preview for Copilot Business users. You can now assign issues to Copilot to autonomously work on a solution, create a branch, and open a pull request for review, all within its own secure cloud environment. - [[Read the Announcement]](https://github.blog/changelog/2025-06-24-github-copilot-coding-agent-is-now-available-for-copilot-business-users/)
-* **Premium Model Billing Now in Effect (`GA`)** – As of June, the monthly premium request allowances for Copilot plans are now enforced. This provides predictability for your standard usage, which remains unlimited for core chat and completions, while giving you pay-as-you-go control over usage of more advanced models. You can monitor usage and set spending limits in your billing settings. - [[View the Billing Update]](https://github.blog/changelog/2025-06-18-update-to-github-copilot-consumptive-billing-experience/)
+* **Remote GitHub MCP Server (`PREVIEW`)** – The Model Context Protocol (MCP) server is now available remotely, enabling Copilot to access GitHub repository information and perform actions across your organization's repositories more effectively. - [[MCP Server Details]](https://github.blog/changelog/2025-06-12-remote-github-mcp-server-is-now-in-public-preview/)
+* **Premium Model Billing Now in Effect (`GA`)** – As of June, the monthly premium request allowances for Copilot plans are now enforced. This provides predictability for your standard usage, which remains unlimited for core chat and completions, while giving you pay-as-you-go control over usage of more advanced models like Claude. You can monitor usage and set spending limits in your billing settings. - [[View the Billing Update]](https://github.blog/changelog/2025-06-18-update-to-github-copilot-consumptive-billing-experience/)
 * **Larger Context in Copilot Chat (`PREVIEW`)** – Copilot Chat can now understand more of your conversation and accept larger pasted snippets of code and text. This enhancement allows for more complex questions and troubleshooting without breaking up your thoughts, making the chat experience much more powerful. - [[See the Improvement]](https://github.blog/changelog/2025-06-25-improved-attachments-and-larger-context-in-copilot-chat-in-public-preview/)
+
+#### Copilot at Scale
+* **GitHub Desktop Commit Message Generation (`GA`)** – GitHub Desktop 3.5 now includes generally available Copilot-powered commit message generation, helping development teams maintain consistent and descriptive commit histories across desktop workflows. - [[Desktop 3.5 Release]](https://github.blog/changelog/2025-06-24-github-desktop-3-5-github-copilot-commit-message-generation-now-generally-available/)
+* **Copilot Spaces for Issues and Pull Requests (`PREVIEW`)** – Copilot Spaces now support working directly with issues and pull requests, enabling more comprehensive project management and code review workflows within the Spaces environment. - [[Spaces Updates]](https://github.blog/changelog/2025-06-19-copilot-spaces-now-support-issues-and-pull-requests-public-preview/)
 
 #### Stay up to date on the latest releases
 * [GitHub Copilot Changelog](https://github.blog/changelog/label/copilot/)
 * [VS Code Copilot Changelog](https://code.visualstudio.com/updates/#_github-copilot)
 * [Visual Studio Copilot Changelog](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes#github-copilot)
 * [JetBrains Copilot Changelog](https://plugins.jetbrains.com/plugin/17718-github-copilot/versions/stable)
+* [XCode Copilot Changelog](https://github.com/github/CopilotForXcode/blob/main/ReleaseNotes.md)
+* [Eclipse Copilot Changelog](https://marketplace.eclipse.org/content/github-copilot#details)
 
 ---
 
 ### Security & Platform Updates
 
-Key updates this month focus on giving you more granular control over your security policies and improving on-premises performance and governance.
+Key updates this month focus on giving you more granular control over your security policies, improving supply chain security, and enhancing on-premises performance and governance.
 
+#### Supply Chain Security Enhancements
+* **Dependabot Single Pull Request for Multi-Ecosystem Updates (`GA`)** – Dependabot can now consolidate updates across multiple package ecosystems into a single pull request, reducing notification noise and making dependency management more efficient for large codebases. - [[Read the Announcement]](https://github.blog/changelog/2025-07-01-dependabot-single-pull-request-for-multi-ecosystem-package-updates/)
+* **Dependabot Minimum Package Age Configuration (`GA`)** – Security teams can now configure Dependabot to ignore updates for packages younger than a specified age, ensuring your agency only adopts well-tested dependencies that meet your stability requirements. - [[Configure Minimum Age]](https://github.blog/changelog/2025-07-01-dependabot-supports-configuration-of-a-minimum-package-age/)
+* **Dependency Auto-Submission for NuGet (`GA`)** – The dependency submission API now supports NuGet packages, expanding automated dependency tracking for .NET applications commonly used in government environments. - [[NuGet Support Details]](https://github.blog/changelog/2025-07-01-dependency-auto-submission-now-supports-nuget/)
+
+#### Security Analysis & Code Protection
+* **CodeQL for Rust (`PREVIEW`)** – CodeQL static analysis now supports Rust in public preview, bringing security scanning to memory-safe applications increasingly adopted for security-critical government workloads. - [[CodeQL Rust Support]](https://github.blog/changelog/2025-07-01-codeql-for-rust-is-now-in-public-preview/)
 * **Customizable Push Protection Patterns (`PREVIEW`)** - Security teams can now choose exactly which secret scanning patterns are included in push protection. This gives your agency the power to block a much wider and more specific set of secrets relevant to your internal tools, preventing them from ever being committed to your repositories. - [[Read the Announcement]](https://github.blog/changelog/2025-06-25-configuring-which-secret-scanning-patterns-are-included-in-push-protection-is-in-public-preview/)
+
+#### Platform & Enterprise Features
+* **Enhanced Artifact Management (`GA`)** – New bulk actions and advanced filtering for artifact attestations support software supply chain integrity requirements, making it easier to manage and verify the provenance of your builds. - [[Artifact Management Updates]](https://github.blog/changelog/2025-07-01-bulk-actions-and-filtering-for-artifact-attestations/)
+* **Cost Center Management API (`GA`)** – New API endpoints enable programmatic management of cost centers, valuable for agencies tracking GitHub usage and costs across multiple departments and projects. - [[API Documentation]](https://github.blog/changelog/2025-07-01-cost-center-management-api/)
 * **GitHub Enterprise Server 3.17 (`GA`)** – The latest on-premises release is now available. GHES 3.17 brings System for Cross-domain Identity Management (SCIM) into general availability for easier user lifecycle management. It also enhances code security with new standalone product offerings (Secret Protection & Code Security), and allows GitHub Apps to be owned at the enterprise level for simpler administration. - [[See the Release Notes]](https://docs.github.com/en/enterprise-server@3.17/admin/release-notes)
 * **Standalone Security for Azure DevOps (`GA`)** – For agencies using Azure DevOps, you can now purchase **GitHub Secret Protection** and **GitHub Code Security** as standalone products. This brings GitHub's best-in-class security features, including CodeQL scanning and secret scanning push protection, directly to your Azure DevOps repositories. - [[Learn More]](https://devblogs.microsoft.com/devops/github-secret-protection-and-github-code-security-for-azure-devops/)
 
@@ -48,6 +69,9 @@ You can guide GitHub Copilot’s behavior in Copilot Chat by adding a `.github/c
 ---
 
 ### Events & Education
+
+#### GitHub Universe
+Our annual two-day developer event returns to San Francisco on **October 28-29**, and you can also join virtually for free. This is your best opportunity to hear the latest product announcements, attend deep-dive sessions, and connect with the global developer community. **Super Early Bird Registration ends July 8th**, offering a $700 discount on in-person passes. - [[Register and Save $700]](https://githuniverse.com/pricing)
 
 #### Upcoming Virtual Events
 | Date | Event | Categories |
