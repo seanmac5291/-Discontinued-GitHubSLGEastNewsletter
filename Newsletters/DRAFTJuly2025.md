@@ -2,7 +2,7 @@
 
 This is a personally curated newsletter for my customers, focused on the most relevant updates and resources from GitHub this month. As your partner, my goal is to keep you informed on how our platform is evolving to meet the specific needs of state and local government.
 
-Highlights for this month include **enhanced supply chain security** with new Dependabot capabilities, **customizable push protection rules**, and the general availability of **GitHub Enterprise Server 3.17**. If you have any feedback or want to dive deeper into any topic, please let me know. Feel free to share this newsletter with others on your team as well.
+Highlights for this month include **enhanced supply chain security** with new Dependabot capabilities, **customizable push protection rules**, and Copilot Coding Agent being **made available for Copilot Business users**. If you have any feedback or want to dive deeper into any topic, please let me know. Feel free to share this newsletter with others on your team as well.
 
 ### 🌟 Highlighted Update 🌟
 
