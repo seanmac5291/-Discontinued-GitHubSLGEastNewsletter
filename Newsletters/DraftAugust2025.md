@@ -79,10 +79,9 @@ Our annual two-day developer event returns to San Francisco on **October 28-29**
 #### Upcoming Virtual Events
 | Date | Event | Categories |
 | :--- | :--- | :--- |
-| August 8 | [Advanced GitHub Copilot: Enterprise Best Practices](https://developer.microsoft.com/en-us/reactor/events/) | Copilot, Enterprise Administration |
-| August 15 | [Securing Your Supply Chain with GitHub Advanced Security](https://resources.github.com/events/) | GHAS, Supply Chain Security |
-| August 22 | [GitHub Actions for CI/CD at Scale](https://developer.microsoft.com/en-us/reactor/events/) | Actions, DevOps Integration |
-| August 29 | [Code Security Automation with GitHub Apps](https://resources.github.com/events/) | Security, Enterprise Administration |
+| August 13 | [Spotlight on GitHub Advanced Security](https://developer.microsoft.com/en-us/reactor/series/S-1311/#registrationForm) | GHAS, Supply Chain Security |
+| August 21 | [GitHub Roadmap Webinar, Q3 2025](https://resources.github.com/webcasts/github-roadmap-webinar-q3-americas-europe/) | Platform, GHAS, Copilot |
+
 
 *Also, watch the [Copilot Fridays back catalog](https://resources.github.com/copilot-fridays-english-on-demand/): Prompt Fundamentals, Copilot for MLOps/Data Science, and more.*
 
